@@ -1,12 +1,13 @@
+import PricingHeader from './components/princing-header/PricingHeader';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
-	return (
-		<>
-			<GlobalStyles />
-			<h1>React</h1>
-		</>
-	);
+  return (
+    <>
+      <GlobalStyles />
+      <PricingHeader />
+    </>
+  );
 };
 
 export default App;
