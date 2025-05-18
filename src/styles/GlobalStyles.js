@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { COLORS } from './Colors';
 
 export const GlobalStyles = createGlobalStyle`
     *,
@@ -30,5 +31,6 @@ export const GlobalStyles = createGlobalStyle`
     body {
         margin: 0;
         font-family: "Montserrat", sans-serif;
+        background-color: ${COLORS.primary100};
     }
 `;

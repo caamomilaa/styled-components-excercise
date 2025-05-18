@@ -1,11 +1,22 @@
+import {
+	StyledInput,
+	StyledLabel,
+	StyledPricingHeader,
+	StyledPricingText,
+	StyledPrincingContainer
+} from './pricingHeader.styles';
+
 const PricingHeader = () => {
-  return (
-    <>
-      <h1>Our pricing</h1>
-      <span>Annually</span>
-      <input type='checkbox' />
-      <span>Monthly</span>
-    </>
-  );
+	return (
+		<>
+			<StyledPricingHeader>Our pricing</StyledPricingHeader>
+			<StyledPrincingContainer>
+				<StyledPricingText>Annually</StyledPricingText>
+				<StyledInput type='checkbox' id='checkbox-input' />
+				<StyledLabel htmlFor='checkbox-input'></StyledLabel>
+				<StyledPricingText>Monthly</StyledPricingText>
+			</StyledPrincingContainer>
+		</>
+	);
 };
 export default PricingHeader;
