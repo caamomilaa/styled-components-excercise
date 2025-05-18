@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { COLORS } from '../../styles/Colors';
 
 const StyledPricingHeader = styled.h1`
-	color: ${COLORS.primary700};
 	text-align: center;
 `;
 
@@ -11,11 +10,10 @@ const StyledPrincingContainer = styled.div`
 	align-items: center;
 	justify-content: center;
 	gap: 1.5rem;
+	margin-bottom: 5rem;
 `;
 
 const StyledPricingText = styled.span`
-	color: ${COLORS.primary700};
-	font-weight: 700;
 	line-height: 1.75rem;
 `;
 

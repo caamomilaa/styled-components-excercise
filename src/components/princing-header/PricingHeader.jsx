@@ -6,13 +6,17 @@ import {
 	StyledPrincingContainer
 } from './pricingHeader.styles';
 
-const PricingHeader = () => {
+const PricingHeader = (plan, setPlan) => {
 	return (
 		<>
 			<StyledPricingHeader>Our pricing</StyledPricingHeader>
 			<StyledPrincingContainer>
 				<StyledPricingText>Annually</StyledPricingText>
-				<StyledInput type='checkbox' id='checkbox-input' />
+				<StyledInput
+					type='checkbox'
+					id='checkbox-input'
+					onChange={() => setPlan(!plan)}
+				/>
 				<StyledLabel htmlFor='checkbox-input'></StyledLabel>
 				<StyledPricingText>Monthly</StyledPricingText>
 			</StyledPrincingContainer>

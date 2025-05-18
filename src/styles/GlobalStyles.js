@@ -32,5 +32,8 @@ export const GlobalStyles = createGlobalStyle`
         margin: 0;
         font-family: "Montserrat", sans-serif;
         background-color: ${COLORS.primary100};
-    }
+        font-weight: 700;
+        padding: 4rem 1.5rem 4.4375rem 1.5rem;
+        color: ${COLORS.primary700}
+        }
 `;
