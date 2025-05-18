@@ -23,4 +23,5 @@ const PricingHeader = (plan, setPlan) => {
 		</>
 	);
 };
+
 export default PricingHeader;

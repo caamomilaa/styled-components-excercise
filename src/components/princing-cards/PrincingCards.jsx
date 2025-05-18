@@ -26,5 +26,4 @@ const PrincingCards = plan => {
 		);
 	}
 };
-//if checkboz clicked to anually => map con info de anually
 export default PrincingCards;
